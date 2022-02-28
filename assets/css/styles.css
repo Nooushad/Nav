@@ -269,3 +269,34 @@ img {
     font-size: 1.25rem;
   }
 }
+/* footer
+==================================================*/
+footer {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #f7f7f7;
+  background-image: url("https://sandhya.me/img/landing_pattern_1@2x.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  color: #666;
+}
+
+footer img {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 670px) {
+  footer {
+    background-image: url("https://sandhya.me/img/landing_pattern_2@2x.png");
+  }
+}
